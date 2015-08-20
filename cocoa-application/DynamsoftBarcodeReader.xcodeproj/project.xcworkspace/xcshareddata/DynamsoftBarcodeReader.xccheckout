@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E4A4ED3A-579F-442A-B0CA-507AB8735251</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DynamsoftBarcodeReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>53E1235BB0670FF4C3C082804D4E73B7113FED38</key>
+		<string>https://github.com/yushulx/swift-barcode-reader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cocoa-application/DynamsoftBarcodeReader.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53E1235BB0670FF4C3C082804D4E73B7113FED38</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yushulx/swift-barcode-reader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>53E1235BB0670FF4C3C082804D4E73B7113FED38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53E1235BB0670FF4C3C082804D4E73B7113FED38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift-barcode-reader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

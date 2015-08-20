@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E795181B85C14300F0DC9F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E795171B85C14300F0DC9F /* main.swift */; };
+		11E795211B85C16C00F0DC9F /* native_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 11E7951F1B85C16C00F0DC9F /* native_lib.c */; };
+		11E7952A1B85C1A400F0DC9F /* libDynamsoftBarcodeReader.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E795291B85C1A400F0DC9F /* libDynamsoftBarcodeReader.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11E795121B85C14300F0DC9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11E795141B85C14300F0DC9F /* DBRConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DBRConsole; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E795171B85C14300F0DC9F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		11E7951E1B85C16C00F0DC9F /* DBRConsole-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBRConsole-Bridging-Header.h"; sourceTree = "<group>"; };
+		11E7951F1B85C16C00F0DC9F /* native_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = native_lib.c; sourceTree = "<group>"; };
+		11E795201B85C16C00F0DC9F /* native_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = native_lib.h; sourceTree = "<group>"; };
+		11E795221B85C1A400F0DC9F /* BarcodeFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeFormat.h; sourceTree = "<group>"; };
+		11E795231B85C1A400F0DC9F /* BarcodeStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeStructs.h; sourceTree = "<group>"; };
+		11E795241B85C1A400F0DC9F /* CommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonConfig.h; sourceTree = "<group>"; };
+		11E795251B85C1A400F0DC9F /* ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
+		11E795261B85C1A400F0DC9F /* ExportDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportDefines.h; sourceTree = "<group>"; };
+		11E795271B85C1A400F0DC9F /* If_DBR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = If_DBR.h; sourceTree = "<group>"; };
+		11E795281B85C1A400F0DC9F /* If_DBRP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = If_DBRP.h; sourceTree = "<group>"; };
+		11E795291B85C1A400F0DC9F /* libDynamsoftBarcodeReader.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libDynamsoftBarcodeReader.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E795111B85C14300F0DC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E7952A1B85C1A400F0DC9F /* libDynamsoftBarcodeReader.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E7950B1B85C14300F0DC9F = {
+			isa = PBXGroup;
+			children = (
+				11E795221B85C1A400F0DC9F /* BarcodeFormat.h */,
+				11E795231B85C1A400F0DC9F /* BarcodeStructs.h */,
+				11E795241B85C1A400F0DC9F /* CommonConfig.h */,
+				11E795251B85C1A400F0DC9F /* ErrorCode.h */,
+				11E795261B85C1A400F0DC9F /* ExportDefines.h */,
+				11E795271B85C1A400F0DC9F /* If_DBR.h */,
+				11E795281B85C1A400F0DC9F /* If_DBRP.h */,
+				11E795291B85C1A400F0DC9F /* libDynamsoftBarcodeReader.dylib */,
+				11E7951F1B85C16C00F0DC9F /* native_lib.c */,
+				11E795201B85C16C00F0DC9F /* native_lib.h */,
+				11E795161B85C14300F0DC9F /* DBRConsole */,
+				11E795151B85C14300F0DC9F /* Products */,
+				11E7951E1B85C16C00F0DC9F /* DBRConsole-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		11E795151B85C14300F0DC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E795141B85C14300F0DC9F /* DBRConsole */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E795161B85C14300F0DC9F /* DBRConsole */ = {
+			isa = PBXGroup;
+			children = (
+				11E795171B85C14300F0DC9F /* main.swift */,
+			);
+			path = DBRConsole;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11E795131B85C14300F0DC9F /* DBRConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E7951B1B85C14300F0DC9F /* Build configuration list for PBXNativeTarget "DBRConsole" */;
+			buildPhases = (
+				11E795101B85C14300F0DC9F /* Sources */,
+				11E795111B85C14300F0DC9F /* Frameworks */,
+				11E795121B85C14300F0DC9F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBRConsole;
+			productName = DBRConsole;
+			productReference = 11E795141B85C14300F0DC9F /* DBRConsole */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E7950C1B85C14300F0DC9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Dynamsoft;
+				TargetAttributes = {
+					11E795131B85C14300F0DC9F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 11E7950F1B85C14300F0DC9F /* Build configuration list for PBXProject "DBRConsole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11E7950B1B85C14300F0DC9F;
+			productRefGroup = 11E795151B85C14300F0DC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E795131B85C14300F0DC9F /* DBRConsole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E795101B85C14300F0DC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E795211B85C16C00F0DC9F /* native_lib.c in Sources */,
+				11E795181B85C14300F0DC9F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11E795191B85C14300F0DC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11E7951A1B85C14300F0DC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11E7951C1B85C14300F0DC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DBRConsole-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11E7951D1B85C14300F0DC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DBRConsole-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E7950F1B85C14300F0DC9F /* Build configuration list for PBXProject "DBRConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E795191B85C14300F0DC9F /* Debug */,
+				11E7951A1B85C14300F0DC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E7951B1B85C14300F0DC9F /* Build configuration list for PBXNativeTarget "DBRConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E7951C1B85C14300F0DC9F /* Debug */,
+				11E7951D1B85C14300F0DC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11E7950C1B85C14300F0DC9F /* Project object */;
+}
