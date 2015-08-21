@@ -6,13 +6,6 @@
 
 #include "native_lib.h"
 
-void native_print()
-{
-    printf("hello world cococo");
-}
-
-#define strcmpi(dst, src) strcasecmp(dst, src)
-
 __int64 GetFormat(const char * pstr)
 {
     __int64 llFormat = 0;
@@ -73,18 +66,6 @@ const char * GetFormatStr(__int64 format)
         return "QR_CODE";
     
     return "UNKNOWN";
-}
-
-void PrintHelp()
-{
-    printf("\nUsage: BarcodeReaderDemo [-f format] [-n number] ImageFilePath\n\n\
-           -f format: supported barcode formats include {CODE_39;CODE_128;CODE_93;CODABAR;ITF;UPC_A;UPC_E;EAN_13;EAN_8;INDUSTRIAL_25;OneD;QR_CODE}.\n\n\
-           -n number: maximum barcodes to read per page.\n\n");
-}
-
-int dbr_set_license(char* pszLicense)
-{
-    return 0;
 }
 
 int dbr_release_memory(pBarcodeResultArray paryResult)
