@@ -32,6 +32,7 @@ Reference
 
 Blog
 ----
-Coming soon...
+[How to Bridge C Code to Create Swift Barcode Reader on Mac][2]
 
 [1]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/InteractingWithCAPIs.html#//apple_ref/doc/uid/TP40014216-CH8-ID17
+[2]:http://www.codepool.biz/swift-barcode-reader-bridge-c-code.html
